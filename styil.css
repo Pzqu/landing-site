@@ -1,0 +1,136 @@
+.page {
+  margin: 0px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header-grey {
+  background-color: #E0E0E0;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  max-width: 1248px;
+  min-height: 88px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.header-navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  min-height: 90px;
+}
+
+.menu-item:hover {
+  background-color: #FF3F40;
+}
+
+.menu-link {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  color: #E0E0E0;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+         /* main */
+.page-content{
+  flex-grow: 1;
+}
+
+/* .intro-content {
+  margin-left: 60px;
+}
+ */
+.intro {
+  padding-top: 102px;
+  padding-bottom: 94px;
+}
+
+.intro-content {
+  position: relative;
+  bottom: 12px;
+  width: 616px;
+  margin-bottom: 20px;
+  margin-right: 74px;
+}
+
+.intro-heading {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.intro-text {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 28px;
+  max-width: 520px;
+  margin-top: 36px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.action-button {
+  box-sizing: border-box;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 228px;
+  height: 56px;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px; /* 6px по умалчанию */
+}
+
+.button-red {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #FF2D2D;
+}
+
+.intro-image {
+  width: 554px;
+  height: 360px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding-left: 9vh;
+  padding-right: 1vh;
+}
