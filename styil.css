@@ -5,23 +5,24 @@
   flex-direction: column;
 }
 
-.page-header-grey {
+.page__header_grey {
   background-color: #E0E0E0;
 }
 
 .header {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: center;
   width: 100%;
-  max-width: 1248px;
-  min-height: 88px;
+  max-width: 1250px;
+  min-height: 90px;
   margin: 0 auto;
   background-color: black;
 }
 
-.header-navigation {
+.header__navigation {
   display: flex;
   flex-wrap: wrap;
 }
@@ -31,22 +32,22 @@
   flex-wrap: wrap;
   align-items: stretch;
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
-.menu-item {
+.menu__item {
   display: flex;
   align-items: stretch;
   justify-content: center;
   min-height: 90px;
 }
 
-.menu-item:hover {
+.menu__item:hover {
   background-color: #FF3F40;
 }
 
-.menu-link {
+.menu__link {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
@@ -58,21 +59,21 @@
   text-transform: uppercase;
 }
 
-         /* main */
-.page-content{
+         /* intro */
+.page__content{
   flex-grow: 1;
 }
 
-.intro-link {
+/* .intro__link {
   margin-right: 50px;
-}
+} */
 
 .intro {
   padding-top: 102px;
   padding-bottom: 94px;
 }
 
-.intro-content {
+.intro__content {
   position: relative;
   bottom: 12px;
   width: 616px;
@@ -80,7 +81,7 @@
   margin-right: 74px;
 }
 
-.intro-heading {
+.intro__heading {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   margin: 0;
   font-size: 60px;
@@ -90,7 +91,7 @@
   letter-spacing: 1.5px;
 }
 
-.intro-text {
+.intro__text {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   margin: 0;
   line-height: 28px;
@@ -100,7 +101,7 @@
   font-weight: 200;
 }
 
-.action-button {
+.action-button_red {
   box-sizing: border-box;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   display: inline-block;
@@ -112,17 +113,17 @@
   border-radius: 6px; /* 6px по умалчанию */
 }
 
-.button-red {
+.action-button {
   font-size: 18px;
   font-weight: 700;
   color: #FFFFFF;
   background-color: #FF2D2D;
 }
 
-.intro-image {
+.intro__image {
   width: 554px;
   height: 360px;
-  opacity: 0.2;
+  /* opacity: 0.2; */
 }
 
 .section {
@@ -130,8 +131,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 1350px;
+  max-width: 1250px;
   margin: 0 auto;
-  padding-left: 9vh;
-  padding-right: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.intro__image {
+  width: 550px;
+  height: 355px;
 }
