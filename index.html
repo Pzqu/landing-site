@@ -7,12 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styil.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lobster&family=Philosopher&family=Roboto:wght@100;400;700;900&display=swap"
-    rel="stylesheet">
-</head>
+  <script async src="./js/index.js"></script>
 
 <body class="page">
   <div class="page__header page__header_grey">
@@ -35,6 +30,24 @@
             <a class="menu__link" href="#contact">Contact</a>
           </li>
         </ul>
+
+        <div class="popup-menu">
+          <button class="popup-menu__button"></button>
+          <ul class="popup-menu__list hide-popup">
+            <li class="popup-menu__item">
+              <a class="popup-menu__link" href="#">Home</a>
+            </li>
+            <li class="popup-menu__item">
+              <a class="popup-menu__link" href="#">Portfolio</a>
+            </li>
+            <li class="popup-menu__item">
+              <a class="popup-menu__link" href="#">About us</a>
+            </li>
+            <li class="popup-menu__item">
+              <a class="popup-menu__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   </div>
@@ -53,7 +66,7 @@
         </a>
       </section>
     </div>
-      <!-- section services -->
+    <!-- section services -->
 
     <section class="section services">
       <div class="services__lead">
@@ -101,7 +114,7 @@
       </div>
     </section>
 
-      <!--   feature -->
+    <!--   feature -->
 
     <section class="section feature">
       <div class="feature__header">
@@ -152,7 +165,8 @@
       <div class="team__header">
         <h2 class="team__header section__heading" id="about">Meet our team</h2>
         <p class="team__text">
-          Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.
+          Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux ,
+          print template.
         </p>
         <hr class="header__line team__line">
       </div>
@@ -163,7 +177,8 @@
           <div class="team__selected-info">
             <span class="team__selected-name">mark waugh</span>
             <p class="team__selected-about">
-              Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.
+              Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui /
+              Ux , print template.
             </p>
             <div class="team__selected-links">
               <a class="team__selected-link" href="">Facebook</a>
@@ -189,12 +204,12 @@
               <h3 class="member__name">sokina jue</h3>
               <img class="member__photo" src="./img/Rect.png" alt="Фото сотрудника">
             </div>
-          </section>  
+          </section>
         </div>
       </div>
     </section>
 
-      <!--   subscribe --> 
+    <!--   subscribe -->
 
     <section class="section subscribe">
       <div class="subscribe__header">
@@ -213,37 +228,62 @@
     <!--   feedback-contacts -->
 
     <div class="feedback-contacts">
-      <div class="feedback__left-box"></div>
+      <!-- <div class="feedback__left-box"></div> -->
 
-        <section class="feedback">
-          <div class="feedback__header">
-            <h2 class="feedback__title">get in touch</h2>
-            <p class="feedback__text">
-              Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.
-            </p>
-            <hr class="header__line feedback__line">
-          </div>
-          
-          <section class="feedback__body feedback__section">
-            <form class="feedback__form" action="feedback__form">
-              <input class="feedback__input feedback__name" type="text" name="name" placeholder="Name" required>
+      <section class="feedback">
+        <div class="feedback__header">
+          <h2 class="feedback__title">get in touch</h2>
+          <p class="feedback__text">
+            Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux
+            , print template.
+          </p>
+          <hr class="header__line feedback__line">
+        </div>
 
-              <input class="feedback__input feedback__mail" type="text" name="mail" placeholder="Mail" required>
-              <textarea class="feedback__input feedback__message" name="message" cols="30" rows="5" placeholder="Type your message"></textarea>
-              <button class="feedback__button" type="submit">Send message</button>
-            </form>    
-          </section>
+        <section class="feedback__body feedback__section">
+          <form class="feedback__form" action="feedback__form">
+            <input class="feedback__input feedback__name" type="text" name="name" placeholder="Name" required>
+
+            <input class="feedback__input feedback__mail" type="text" name="mail" placeholder="Mail" required>
+            <textarea class="feedback__input feedback__message" name="message" cols="30" rows="5"
+              placeholder="Type your message"></textarea>
+            <button class="feedback__button" type="submit">Send message</button>
+          </form>
         </section>
-        <section class="contacts">
-          <h2 class="contacts__heading section__heading">contact info</h2>
-          <address class="contacts__address">
-            <p class="contacts__line">Jalalabad 24 / A, Ambaarkhana, Sylhet,  Bangladesh</p>
-            <p class="contacts__line">redwan@deviserweb.com</p>
-            <p class="contacts__line">(+88) 017 617 46373</p>
-          </address>
-        </section>
+      </section>
+      <section class="contacts">
+        <h2 class="contacts__heading section__heading">contact info</h2>
+        <address class="contacts__address">
+          <p class="contacts__line">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+          <p class="contacts__line">redwan@deviserweb.com</p>
+          <p class="contacts__line">(+88) 017 617 46373</p>
+        </address>
+      </section>
     </div>
   </main>
+  
+  <footer class="footer">
+    <div class="footer__content section">
+      <p class="footer__copyright">&copy; Copyright @Junaed 2023, All rights reserved.
+        <div class="footer__social-links links-social">
+          <a class="footer__links" href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B2%D0%B8%D1%82%D1%82%D0%B5%D1%80" target="_blank">
+            <img src="./img/Solid-1.svg" alt="лого твитера">
+          </a>
+          <a class="footer__links" href="https://lingidy.com/" target="_blank">
+            <img src="./img/Solid-2.svg" alt="лого лингида">
+          </a>
+          <a class="footer__links" href="https://ru.wikipedia.org/wiki/Google%2B"target="_blank" >
+            <img src="./img/Solid-3.svg" alt="лого гугл +">
+          </a>
+          <a class="footer__links" href="https://ru.wikipedia.org/wiki/Facebook" target="_blank">
+            <img src="./img/Solid-4.svg" alt="лого фейсбука">
+          </a>
+          
+        </div>
+      </p>
+    </div>
+  </footer>
+
 </body>
 
 </html>
